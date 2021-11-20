@@ -25,3 +25,7 @@
     margin-right: 30px;
     justify-content: space-between;
 }
+.header_right>h4{
+    margin-left: 10px;
+    align-items: center;
+}

@@ -4,4 +4,49 @@
     color: aliceblue;
     padding: 30px;
     background: linear-gradient( rgb(91, 87,115),rgba(0,0,0,1));
+    overflow-y: overlay;
+}
+
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+
+}
+.body_infoText{
+  flex: 1;
+
+}
+.body_infoText>h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.body_infoText>p{
+    font-size: 14px;
+}
+.body_info>img{
+    height: 15vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgb(10, 10, 10);
+}
+.body_icons{
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+   
+}
+.body_shuffle{
+    font-size: 60px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+.body_shuffle:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+/* -30px becoz it goes against the padding */
+.body_songs{
+
+    margin: 20px -30px;
 }
